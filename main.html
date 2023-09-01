@@ -5,7 +5,42 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
+<form action="/#" method="post">
+        <label for="name">Name</label>
+   <input type="text" id="name" required>
+   <br>
+   <label for="email">Email</label>
+   <input type="email"  id="email" required>
+        <br>
+    <p>Select your gender:-</p>
+   <input type="radio"  name="gender" id="gender" required>
+   <label for="gender">Male</label>
+   <input type="radio" name="gender" id="gender">
+   <label for="gender">Female</label>
+   <br>
+   <label for="laptop brands">laptop brand:</label>
+   <select name="laptop brands" id="laptop brands">
+    <option value="Apple">Apple</option>
+  <option value="Asus">Asus</option>
+  <option value="HP">HP</option>
+ 
+   </select>
+   <br>
+   <label for="age">Age</label>
+   <input type="number" name="age" id="age" required>
+   <br>
+   <label for="DOb">Date of birth</label>
+  <input type="date" name="date of birth" id="DOb" required>
+  <br>
+  <label for="password">password</label>
+  <input type="password" name="password" id="password" required>
+  <br>
+  <label for="portfolio">Portfolio</label>
+  <input type="url" name="portfolio" id="portfolio">
+  <br>
+  <button type="submit">Submit</button>
 
+    </form>
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
